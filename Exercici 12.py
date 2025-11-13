@@ -1,5 +1,5 @@
-E = input("Escriu la teva edad: ")
-if E>18:
+edad = int(input("Escriu la teva edad: "))
+if edad >= 18:
     print("Ets major d'edad")
-else E<18:
-    Print:("Ets menor d'edad")
+else:
+    print("Ets menor d'edad")
