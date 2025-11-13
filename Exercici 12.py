@@ -1,7 +1,11 @@
+def majoredad(edat):
+    if edad > 18:
+        print("Ets major")
+    elif edad < 18: 
+        print("Ets menor")
+    else:
+        print("Enhorabona tens 18")
 edad = int(input("Escriu la teva edad: "))
-if edad > 18:
-    print("Ets major d'edad")
-elif edad<18:
-    print("Ets menor d'edad")
-else:   
-    print("Tens 18 exactes")
+majoredad(edad)
+edad = int(input("Escriu la teva edad: "))
+majoredad(edad)
