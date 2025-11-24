@@ -1,3 +1,6 @@
+
+
+"""
 # a = [1, "a", "capça"[2], 1, "a"]
 a = [10, 9, 8, 7, 6, 5, 1, 2, 3 ,4]
 # Pasar els elements de la llista a string
@@ -6,10 +9,6 @@ for i in range(len(a)):
 # Crear un unic string separat per guio
 print("-"join(a))
 
-
-
-
-"""
 print(a[::-1]) # Retorna una llista invertida, però no modifica l'original
 print(a)
 print(a.reverse()) # No retorna res, però modifica la llista original
