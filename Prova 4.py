@@ -4,7 +4,7 @@ a = [10, 9, 8, 7, 6, 5, 1, 2, 3 ,4]
 for i in range(len(a)):
     a[i]=str([i])
 # Crear un unic string separat per guio
-print("-",join(a))
+print("-"join(a))
 
 
 
