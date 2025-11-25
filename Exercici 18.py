@@ -8,5 +8,5 @@ def ex18(c):
         return False
 
 # Programa principal
-c = input("Escriu un caracter per a provar si es vocal o no")
+c = input("Escriu un caracter per a provar si es vocal o no: ")
 print(ex18(c))
