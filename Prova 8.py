@@ -1,10 +1,17 @@
-v1 = int(input("intro el 1r numero: "))
-v2 = int(input("intro el 2n numero: "))
-
-
-
-
-
+def ordenar(x, y):
+    if x>y:
+        return x,y
+    elif y>x:
+        return y,x
+    else:
+        return x,y
+    
+# Programa principal
+v1 = int(input("Intro el 1r numero: "))
+v2 = int(input("Intro el 2r numero: "))
+v1, v2 = ordenar(v1, v2)
+for e in range(v2, v1+1):
+    print(e)
 """
 v1 = int(input("intro el 1r numero: "))
 v2 = int(input("intro el 2n numero: "))
